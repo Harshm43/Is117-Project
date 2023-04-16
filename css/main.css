@@ -1,0 +1,81 @@
+/* DEVELOPER: Harsh Mistry, IS117-002, Spring 2023 */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* home page */
+.img-box {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 85%;
+    max-height: 100vh;
+    margin: auto;
+}
+.card-deck {
+    padding: 5%;
+    font-family: Calibri Light, Arial, serif;
+    margin-right: 15px; /* add some space between the cards */
+}
+
+/* contact page */
+.big-title {
+    text-align: center;
+    font-family: Calibri Light, Arial, serif;
+}
+.form-group {
+    margin: 0px;
+    padding: 0px;
+}
+/* about page */
+.text-center {
+    font-family: Calibri Light, Arial, serif;
+}
+.container-me {
+    margin-left: 3%;
+}
+.my-pic {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 60px;
+    width: 35%;
+}
+.me-text {
+    max-width: 60%;
+    text-align: left;
+    padding-left: 5px;
+    float: right;
+    font-family: Calibri Light, Arial, serif;
+    font-size: 14pt;
+}
+.column {
+    float: left;
+    width: 40%;
+}
+.card-img-top {
+    height: 300px;
+    object-fit: unset;
+}
+
+
+
+
+/* footer */
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}

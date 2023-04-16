@@ -1,0 +1,766 @@
+<!-- DEVELOPER: Harsh Mistry, IS117-002, Spring 2023 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harsh's website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md justify-content-start bg-primary navbar-dark col-12">
+            <!-- Brand -->
+            <a href="index.html"><img src="images/logo.png" alt="Sports icon" width="45" height="45"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Sports.html">Sports</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Players.html">Players</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            More
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="contact.html">Contact Me</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+
+    <h1 class="text-center" style="color: royalblue ;">About the Players</h1>
+    <div class="card">
+        <div style="text-align: center;">
+            <p>Welcome to the website's players page! Here,you can find information about some of the greatest athletes in the world of sports. From basketball to football, baseball to tennis and many more, we've got you covered with all the stats and facts you need to know</p>
+            <h4>Just click players name, and you will find players stats and teams.</h4>
+        </div>
+    </div>
+
+    <h2 class="text-center" style="color: darkkhaki ;">Current Best players of the game </h2>
+    <div class="card">
+        <h5 class="text-center">Basketball Players</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/Lebron_James.jpg" class="card-img-top" alt="Lebron James">
+                    <h3 class="text-center"><a href="#lebron-stats" data-toggle="collapse">Lebron James</a></h3>
+                    <div id="lebron-stats" class="collapse">
+                        <p>Points per game (PPG): 27.0</p>
+                        <p>Rebounds per game (RPG): 7.4</p>
+                        <p>Assists per game (APG): 7.4</p>
+                        <p>Field goal percentage (FG%): 51.3%</p>
+                        <p>Three-point percentage (3P%): 36.5%</p>
+                        <p>Free throw percentage (FT%): 69.8%</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li >Cleveland Cavaliers (2003-2010)</li>
+                            <li >Miami Heat (2010-2014)</li>
+                            <li >Cleveland Cavaliers (2014-2018)</li>
+                            <li >Los Angeles Lakers (2018-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Joel_Embiid.jpg" class="card-img-top" alt="Joel Embiid">
+                    <h3 class="text-center"><a href="#jeol-stats" data-toggle="collapse">Joel Embiid</a></h3>
+                    <div id="jeol-stats" class="collapse">
+                        <p>Points per game (PPG): 28.5</p>
+                        <p>Rebounds per game (RPG): 10.6</p>
+                        <p>Assists per game (APG): 2.8</p>
+                        <p>Field goal percentage (FG%): 51.3%</p>
+                        <p>Three-point percentage (3P%): 37.7%</p>
+                        <p>Free throw percentage (FT%): 85.9%</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Philadelphia 76ers (2014-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Stephen_Curry.jpg" class="card-img-top" alt="Stephen Curry">
+                    <h3 class="text-center"><a href="#curry-stats" data-toggle="collapse">Stephen Curry</a></h3>
+                    <div id="curry-stats" class="collapse">
+                        <p>Points per game (PPG): 28.1</p>
+                        <p>Rebounds per game (RPG): 5.5</p>
+                        <p>Assists per game (APG): 6.0</p>
+                        <p>Field goal percentage (FG%): 47.7%</p>
+                        <p>Three-point percentage (3P%): 41.6%</p>
+                        <p>Free throw percentage (FT%): 91.8%</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Golden State Warriors (2009-present)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <h5 class="text-center">American Football Players</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/Patrick_Mahomes.jpg" class="card-img-top" alt="Patrick Mahomes">
+                    <h3 class="text-center"><a href="#mahomes-stats" data-toggle="collapse">Patrick Mahomes</a></h3>
+                    <div id="mahomes-stats" class="collapse">
+                        <p>Passing yards: 13,820</p>
+                        <p>Passing touchdowns: 114</p>
+                        <p>Interceptions thrown: 24</p>
+                        <p>Completion percentage: 66.0%</p>
+                        <p>Passer rating: 107.1</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Kansas City Chiefs (2017-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Aaron_Donald.jpg" class="card-img-top" alt="Aaron Donald">
+                    <h3 class="text-center"><a href="#donald-stats" data-toggle="collapse">Aaron Donald</a></h3>
+                    <div id="donald-stats" class="collapse">
+                        <p>Total tackles: 466</p>
+                        <p>Sacks: 85.5</p>
+                        <p>Forced fumbles: 19</p>
+                        <p>Fumble recoveries: 10</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Los Angeles Rams (2014-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Josh_Allen.jpg" class="card-img-top" alt="Josh Allen">
+                    <h3 class="text-center"><a href="#allen-stats" data-toggle="collapse">Josh Allen</a></h3>
+                    <div id="allen-stats" class="collapse">
+                        <p>Passing yards: 11,084</p>
+                        <p>Passing touchdowns: 86</p>
+                        <p>Interceptions thrown: 31</p>
+                        <p>Completion percentage: 64.3%</p>
+                        <p>Passer rating: 93.9</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Buffalo Bills (2018-present)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <h5 class="text-center">Cricket Players</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/Virat_Kohli.jpg" class="card-img-top" alt="Virat Kohli">
+                    <h3 class="text-center"><a href="#virat-stats" data-toggle="collapse">Virat Kohli</a></h3>
+                    <div id="virat-stats" class="collapse">
+                        <p>Test matches played: 96</p>
+                        <p>Test runs: 7,599</p>
+                        <p>Test batting average: 52.03</p>
+                        <p>ODI matches played: 254</p>
+                        <p>ODI runs: 12,070</p>
+                        <p>ODI batting average: 59.49</p>
+                        <P>T20I matches played: 98</P>
+                        <p>T20I runs: 3,148</p>
+                        <p>T20I batting average: 33.61</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Delhi Cricket team (2006-present)</li>
+                            <li>Royal Challengers Bangalore (2008-present)</li>
+                            <li>Indian Cricket team (2008-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Rohit_Sharma.jpg" class="card-img-top" alt="Rohit Sharma">
+                    <h3 class="text-center"><a href="#rohit-stats" data-toggle="collapse">Rohit Sharma</a></h3>
+                    <div id="rohit-stats" class="collapse">
+                        <p>Test matches played: 45</p>
+                        <p>Test runs: 3,234</p>
+                        <p>Test batting average: 49.22</p>
+                        <p>ODI matches played: 255</p>
+                        <p>ODI runs: 10,623</p>
+                        <p>ODI batting average: 48.06</p>
+                        <P>T20I matches played: 115</P>
+                        <p>T20I runs: 3,355</p>
+                        <p>T20I batting average: 32.04</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Mumbai Cricket Team (2006/07 -present)</li>
+                            <li>Deccan Chargers (2008-2010)</li>
+                            <li>Mumbai Indians (2011-Present)</li>
+                            <li>Indian Cricket team (2007-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Kane_Williamson.jpg" class="card-img-top" alt="Kane Williamson">
+                    <h3 class="text-center"><a href="#kane-stats" data-toggle="collapse">Kane Williamson</a></h3>
+                    <div id="kane-stats" class="collapse">
+                        <p>Test matches played: 87</p>
+                        <p>Test runs: 7,449</p>
+                        <p>Test batting average: 52.49</p>
+                        <p>ODI matches played: 155</p>
+                        <p>ODI runs: 6,028</p>
+                        <p>ODI batting average: 47.14</p>
+                        <P>T20I matches played: 89</P>
+                        <p>T20I runs: 2,166</p>
+                        <p>T20I batting average: 32.58</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Northern Districts (2006/07-present)</li>
+                            <li>Gloucestershire (2011-2012)</li>
+                            <li>Yorkshire (2013-2018)</li>
+                            <li>Sunrisers Hyderabad (2015-2022)</li>
+                            <li>Barbados Tridents (2017)</li>
+                            <li>Gujarat Titans (2023)</li>
+                            <li>New Zealand Cricket Team(2010-Present)</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <h5 class="text-center">Soccer Players</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/Lionel_Messi.jpg" class="card-img-top" alt="Lionel Messi">
+                    <h3 class="text-center"><a href="#lionel-stats" data-toggle="collapse">Lionel Messi</a></h3>
+                    <div id="lionel-stats" class="collapse">
+                        <p>Club goals: 745</p>
+                        <p>Club assists: 315</p>
+                        <p>International goals: 81</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>FC Barcelona (2004-2021)</li>
+                            <li>Paris Saint-Germain (2021-present)</li>
+                            <li>Argentina national team (2005-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Kylian_Mbappe.jpg" class="card-img-top" alt="Kylian Mbappe">
+                    <h3 class="text-center"><a href="#kylian-stats" data-toggle="collapse">Kylian Mbappe</a></h3>
+                    <div id="kylian-stats" class="collapse">
+                        <p>Club goals: 132 </p>
+                        <p>Club assists: 60</p>
+                        <p>International goals: 28</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>AS Bondy (youth club)</li>
+                            <li>INF Clairefontaine (youth academy)</li>
+                            <li>AS Monaco (2015-2018)</li>
+                            <li>Paris Saint-Germain (2018-present)</li>
+                            <li>France national team (2017-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Kevin_de_Bruyne.jpg" class="card-img-top" alt="Kevin de Bruyne">
+                    <h3 class="text-center"><a href="#kevin-stats" data-toggle="collapse">Kevin de Bruyne</a></h3>
+                    <div id="kevin-stats" class="collapse">
+                        <p>Club goals: 86</p>
+                        <p>Club assists: 137</p>
+                        <p>International goals: 22</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Genk (2008-2012)</li>
+                            <li>Chelsea (2012-2014)</li>
+                            <li>Werder Bremen (loan, 2012)</li>
+                            <li>VfL Wolfsburg (2014-2015)</li>
+                            <li>Manchester City (2015-present)</li>
+                            <li>Belgium national team (2010-present)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <h5 class="text-center">Baseball Players</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/Shohei_Ohtani.jpg" class="card-img-top" alt="Shohei Ohtani">
+                    <h3 class="text-center"><a href="#shohei-stats" data-toggle="collapse">Shohei Ohtani</a></h3>
+                    <div id="shohei-stats" class="collapse">
+                        <p>Batting average: .257</p>
+                        <p>Home runs: 60</p>
+                        <p>Runs batted in (RBIs): 148</p>
+                        <p>Stolen bases: 26</p>
+                        <p>Earned run average (ERA): 3.18</p>
+                        <p>Strikeouts: 351</p>
+                        <p>Wins: 16</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Hokkaido Nippon-Ham Fighters (Japanese Nippon Professional Baseball League, 2013-2017)</li>
+                            <li>Los Angeles Angels (MLB, 2018-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Aaron_Judge.jpg" class="card-img-top" alt="Aaron Judge">
+                    <h3 class="text-center"><a href="#judge-stats" data-toggle="collapse">Aaron Judge</a></h3>
+                    <div id="judge-stats" class="collapse">
+                        <p>Batting average: .272</p>
+                        <p>Home runs: 141</p>
+                        <p>Runs batted in (RBIs): 328</p>
+                        <p>Stolen bases: 28</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>New York Yankees (MLB, 2016-present)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Mike_Trout.jpg" class="card-img-top" alt="Mike Trout">
+                    <h3 class="text-center"><a href="#mike-stats" data-toggle="collapse">Mike Trout</a></h3>
+                    <div id="mike-stats" class="collapse">
+                        <p>Batting average: .305</p>
+                        <p>Home runs: 310</p>
+                        <p>Runs batted in (RBIs): 811</p>
+                        <p>Stolen bases: 202</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Los Angeles Angels (MLB, 2011-present)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <h5 class="text-center">Tennis Players</h5>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/Carlos_Alcaraz.jpg" class="card-img-top" alt="Carlos Alcaraz">
+                    <h3 class="text-center"><a href="#carlos-stats" data-toggle="collapse">Carlos Alcaraz</a></h3>
+                    <div id="carlos-stats" class="collapse">
+                        <p>Singles ranking: 6</p>
+                        <p>Career titles: 4</p>
+                        <p>Career prize money: $4,862,785 USD</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Spain Davis Cup team</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Casper_Ruud.jpg" class="card-img-top" alt="Casper Ruud">
+                    <h3 class="text-center"><a href="#casper-stats" data-toggle="collapse">Casper Ruud</a></h3>
+                    <div id="casper-stats" class="collapse">
+                        <p>Singles ranking: 14</p>
+                        <p>Career titles: 6</p>
+                        <p>Career prize money: $6,206,108 USD</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Norway Davis Cup team</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/Andy_Murry.jpg" class="card-img-top" alt="Andy Murry">
+                    <h3 class="text-center"><a href="#andy-stats" data-toggle="collapse">Andy Murry</a></h3>
+                    <div id="andy-stats" class="collapse">
+                        <p>Singles ranking: 128</p>
+                        <p>Career titles: 46</p>
+                        <p>Career prize money: $63,938,376 USD</p>
+                        <p>Teams:</p>
+                        <ul>
+                            <li>Great Britain Davis Cup team</li>
+                            <li>Great Britain Olympic team</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="text-center" style="color: darkkhaki;">Legends of the game  </h2>
+<div class="card">
+    <h5 class="text-center">Basketball Players</h5>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/Michael_Jordan.jpg" class="card-img-top" alt="Michael Jordan">
+                <h3 class="text-center"><a href="#michael-stats" data-toggle="collapse">Michael Jordan</a></h3>
+                <div id="michael-stats" class="collapse">
+                    <p>Points per game: 30.1</p>
+                    <p>Rebounds per game: 6.2</p>
+                    <p>Assists per game: 5.3</p>
+                    <p>Steals per game: 2.3</p>
+                    <p>Blocks per game: 0.8</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li >Chicago Bulls (1984-1993, 1995-1998)</li>
+                        <li >Washington Wizards (2001-2003)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Shaquille_O’Neal.jpg" class="card-img-top" alt="Shaquille O’Neal">
+                <h3 class="text-center"><a href="#shaquille-stats" data-toggle="collapse">Shaquille O’Neal</a></h3>
+                <div id="shaquille-stats" class="collapse">
+                    <p>Points per game: 23.7</p>
+                    <p>Rebounds per game: 10.9</p>
+                    <p>Assists per game: 2.5</p>
+                    <p>Steals per game: 0.6</p>
+                    <p>Blocks per game: 2.3</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Orlando Magic (1992-1996)</li>
+                        <li>Los Angeles Lakers (1996-2004)</li>
+                        <li>Miami Heat (2004-2008)</li>
+                        <li>Phoenix Suns (2008-2009)</li>
+                        <li>Cleveland Cavaliers (2009-2010)</li>
+                        <li>Boston Celtics (2010-2011)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Bill_Russell.jpg" class="card-img-top" alt="Bill Russell">
+                <h3 class="text-center"><a href="#bill-stats" data-toggle="collapse">Bill Russell</a></h3>
+                <div id="bill-stats" class="collapse">
+                    <p>Points per game: 15.1</p>
+                    <p>Rebounds per game: 22.5</p>
+                    <p>Assists per game: 4.3</p>
+                    <p>Steals per game: N/A</p>
+                    <p>Blocks per game: N/A </p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Boston Celtics (1956-1969)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="card">
+    <h5 class="text-center">American Football Players</h5>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/Tom_Brady.jpg" class="card-img-top" alt="Tom Brady">
+                <h3 class="text-center"><a href="#tom-stats" data-toggle="collapse">Tom Brady</a></h3>
+                <div id="tom-stats" class="collapse">
+                    <p>Passing yards: 79,204</p>
+                    <p>Touchdown passes: 590</p>
+                    <p>Interceptions: 230</p>
+                    <p>Passer rating: 97.3</p>
+                    <p>Super Bowl championships: 7</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>New England Patriots (2000-2019)</li>
+                        <li>Tampa Bay Buccaneers (2020-2022)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Lawrence_Taylor.jpg" class="card-img-top" alt="Lawrence Taylor">
+                <h3 class="text-center"><a href="#lawrence-stats" data-toggle="collapse">Lawrence Taylor</a></h3>
+                <div id="lawrence-stats" class="collapse">
+                    <p>Tackles: 1,088</p>
+                    <p>Sacks: 142</p>
+                    <p>Interceptions: 9</p>
+                    <p>Forced fumbles: 33</p>
+                    <p>Pro Bowl selections: 10</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>New York Giants (1981-1993)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Jerry_Rice.jpg" class="card-img-top" alt="Jerry Rice">
+                <h3 class="text-center"><a href="#jerry-stats" data-toggle="collapse">Jerry Rice</a></h3>
+                <div id="jerry-stats" class="collapse">
+                    <p>Receiving yards: 22,895</p>
+                    <p>Touchdown receptions: 197</p>
+                    <p>Receptions: 1,549</p>
+                    <p>Pro Bowl selections: 13</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>San Francisco 49ers (1985-2000)</li>
+                        <li>Oakland Raiders (2001-2004)</li>
+                        <li>Seattle Seahawks (2004)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="card">
+    <h5 class="text-center">Cricket Players</h5>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/Sachin_Tendulkar.jpg" class="card-img-top" alt="Sachin Tendulkar">
+                <h3 class="text-center"><a href="#sachin-stats" data-toggle="collapse">Sachin Tendulkar</a></h3>
+                <div id="sachin-stats" class="collapse">
+                    <p>Test runs: 15,921</p>
+                    <p>Test centuries: 51</p>
+                    <p>ODI runs: 18,426</p>
+                    <p>ODI centuries: 49</p>
+                    <p>Total centuries: 100</p>
+                    <p>Matches played: 664</p>
+
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Mumbai Cricket team (1988-2013)</li>
+                        <li>Mumbai Indians (2008-2013)</li>
+                        <li>Indian Cricket team (1989-2013)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Don_Bradman.jpg" class="card-img-top" alt="Don Bradman">
+                <h3 class="text-center"><a href="#don-stats" data-toggle="collapse">Don Bradman</a></h3>
+                <div id="don-stats" class="collapse">
+                    <p>Test batting average: 99.94</p>
+                    <p>Test runs: 6,996</p>
+                    <p>Test centuries: 29</p>
+                    <p>Matches played: 52</p>
+                    <p>Highest Score: 334</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>New South Wales Cricket Team (1927-1934) </li>
+                        <li>South Australia (1935-1949)</li>
+                        <li>Australia Cricket team (1928-1948)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Shane_Warne.jpg" class="card-img-top" alt="Shane Warne">
+                <h3 class="text-center"><a href="#shane-stats" data-toggle="collapse">Shane Warne</a></h3>
+                <div id="shane-stats" class="collapse">
+                    <p>Test wickets: 708</p>
+                    <p>Test bowling average: 25.41</p>
+                    <p>Bowling average: 37.13</p>
+                    <p>Best bowling figures: 8/71</p>
+                    <p>Matches played: 412</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Victoria (1990-2007)</li>
+                        <li>Hampshire (2000-2007)</li>
+                        <li>Yorkshire (2013-2018)</li>
+                        <li>Rajasthan Royals (2008-2012)</li>
+                        <li>Melbourne Stars (2011-2013) </li>
+                        <li>Australia Cricket Team (1992-2007)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="card">
+    <h5 class="text-center">Soccer Players</h5>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/Pele.jpg" class="card-img-top" alt="Pele">
+                <h3 class="text-center"><a href="#pele-stats" data-toggle="collapse">Pele</a></h3>
+                <div id="pele-stats" class="collapse">
+                    <p>Career goals: 1,281</p>
+                    <p>World Cup championships: 3</p>
+                    <p>Ballon d'Or award: 1</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Santos (1956-1974))</li>
+                        <li>New York Cosmos (1975-1977)</li>
+                        <li>Brazil national team (1957-1971)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Diego_Maradona.jpg" class="card-img-top" alt="Diego Maradona">
+                <h3 class="text-center"><a href="#diego-stats" data-toggle="collapse">Diego Maradona</a></h3>
+                <div id="diego-stats" class="collapse">
+                    <p>Career goals: 345 </p>
+                    <p>World Cup championships: 1</p>
+                    <p>Ballon d'Or award: 1</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Argentinos Juniors (1976-1981)</li>
+                        <li>Boca Juniors (1981)</li>
+                        <li>Barcelona (1982-1984)</li>
+                        <li>Napoli (1984-1991)</li>
+                        <li>Sevilla (1992-1993)</li>
+                        <li>Newell's Old Boys (1993-1994)</li>
+                        <li>Argentina national team (1977-1994)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/David_Beckham.jpg" class="card-img-top" alt="David Beckham">
+                <h3 class="text-center"><a href="#david-stats" data-toggle="collapse">David Beckham</a></h3>
+                <div id="david-stats" class="collapse">
+                    <p>Career goals: 115</p>
+                    <p>Premier League championships: 3</p>
+                    <p>UEFA Champions League championship: 1</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Manchester United (1992-2003)</li>
+                        <li>Real Madrid (2003-2007)</li>
+                        <li>LA Galaxy (2007-2012)</li>
+                        <li>AC Milan (2009-2010)</li>
+                        <li>Paris Saint-Germain (2013)</li>
+                        <li>England national team (1996-2009)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="card">
+    <h5 class="text-center">Baseball Players</h5>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/Babe_Ruth.jpg" class="card-img-top" alt="Babe Ruth">
+                <h3 class="text-center"><a href="#babe-stats" data-toggle="collapse">Babe Ruth</a></h3>
+                <div id="babe-stats" class="collapse">
+                    <p>Career batting average: .342</p>
+                    <p>Home runs: 714</p>
+                    <p>Runs batted in: 2,213</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Boston Red Sox (1914-1919)</li>
+                        <li>New York Yankees (1920-1934)</li>
+                        <li>Boston Braves (1935)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Hank_Aaron.jpg" class="card-img-top" alt="Hank Aaron">
+                <h3 class="text-center"><a href="#hank-stats" data-toggle="collapse">Hank Aaron</a></h3>
+                <div id="hank-stats" class="collapse">
+                    <p>Career home runs: 755</p>
+                    <p>Career RBIs: 2,297</p>
+                    <p>Career batting average: .305</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Milwaukee Braves (1954-1965)</li>
+                        <li>Atlanta Braves (1966-1974)</li>
+                        <li>Milwaukee Brewers (1975-1976)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Willie_Mays.jpg" class="card-img-top" alt="Willie Mays">
+                <h3 class="text-center"><a href="#willie-stats" data-toggle="collapse">Willie Mays</a></h3>
+                <div id="willie-stats" class="collapse">
+                    <p>Career home runs: 660</p>
+                    <p>Career RBIs: 1,903</p>
+                    <p>Career batting average: .302</p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Birmingham Black Barons (1948)</li>
+                        <li>New York Giants (1951-1957)</li>
+                        <li>San Francisco Giants (1958-1972)</li>
+                        <li>New York Mets (1972-1973)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="card">
+    <h5 class="text-center">Tennis Players</h5>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/Novak_Djokovic.jpg" class="card-img-top" alt="Novak Djokovic">
+                <h3 class="text-center"><a href="#novak-stats" data-toggle="collapse">Novak Djokovic</a></h3>
+                <div id="novak-stats" class="collapse">
+                    <p>Grand Slam singles titles: 20</p>
+                    <p>career wins: 1,082</p>
+                    <p>ATP Finals titles: 6 </p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Serbia Davis Cup team (2004-present)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Rafael_Nadal.jpg" class="card-img-top" alt="Rafael Nadal">
+                <h3 class="text-center"><a href="#rafael-stats" data-toggle="collapse">Rafael Nadal</a></h3>
+                <div id="rafael-stats" class="collapse">
+                    <p>Grand Slam singles titles: 20</p>
+                    <p>career wins: 1,028</p>
+                    <p>ATP Finals titles: 5 </p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Spain Davis Cup team (2004-present)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <img src="images/Roger_Federer.jpg" class="card-img-top" alt="Roger Federer">
+                <h3 class="text-center"><a href="#roger-stats" data-toggle="collapse">Roger Federer</a></h3>
+                <div id="roger-stats" class="collapse">
+                    <p>Grand Slam singles titles: 20</p>
+                    <p>career wins: 1,242</p>
+                    <p>ATP Finals titles: 6 </p>
+                    <p>Teams:</p>
+                    <ul>
+                        <li>Switzerland Davis Cup team (1999-2015, 2017-2018)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Harsh Mistry, 2023 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
